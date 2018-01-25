@@ -7,18 +7,18 @@
         @using (Html.BeginForm("Index", "Home", FormMethod.Post))
         {
             <div class="text-center mb-4">
-                <img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                <img class="mb-4" src="~/Imagenes/Logo Sinva.png"  />
                 <h1 class="h3 mb-3 font-weight-normal">Ingrese los datos de usuario</h1>
             
             </div>
         
         
             <div class="form-label-group" >
-                <input type="text" id="inputEmail" class="form-control" placeholder="usuario" required="" autofocus="">
+                <input type="text" id="inputEmail" name="usuario" class="form-control" placeholder="usuario" required="" autofocus="">
                 <label for="inputEmail">Usuario</label>
             </div>
             <div class="form-label-group">
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+                <input type="password" id="inputPassword" name="password" class="form-control" placeholder="Password" required="">
                 <label for="inputPassword">Password</label>
             </div>
             <div>

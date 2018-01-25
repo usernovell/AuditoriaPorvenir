@@ -27,7 +27,7 @@ namespace AuditoriaPorvenir.Controllers
             return View();
         }
         [HttpPost]
-        public ActionResult Index(string inputEmail, string inputPassword)
+        public ActionResult Index(string usuario, string password)
         {
             return View("Contact");
         }
